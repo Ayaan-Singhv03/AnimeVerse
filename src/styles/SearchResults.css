@@ -1,0 +1,34 @@
+.search-results-container {
+  padding: 1rem;
+}
+
+.search-header {
+  margin-bottom: 2rem;
+}
+
+.search-header h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.search-header p {
+  color: var(--text-light);
+  font-size: 1rem;
+}
+
+.no-results {
+  text-align: center;
+  background-color: #1e1e1e;
+  border-radius: var(--border-radius);
+  padding: 3rem;
+  box-shadow: var(--box-shadow);
+}
+
+.no-results h3 {
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.no-results p {
+  color: var(--text-light);
+} 
