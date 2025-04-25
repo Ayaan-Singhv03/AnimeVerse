@@ -1,4 +1,4 @@
-# AniFind - Anime Finder Web Application
+# AnimeVerse - Anime Finder Web Application
 
 A modern React application for discovering, exploring, and creating a personalized anime watchlist.
 
