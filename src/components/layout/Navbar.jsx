@@ -25,21 +25,6 @@ const Navbar = () => {
             <h1 className="brand-name">ANIMEVERSE</h1>
           </Link>
         </div>
-        
-        <form className="search-form" onSubmit={handleSearch}>
-          <div className="search-input-container">
-            <input
-              type="text"
-              className="search-input"
-              placeholder="Discover anime..."
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-            />
-            <button type="submit" className="search-button">
-              <FaSearch className="search-icon" />
-            </button>
-          </div>
-        </form>
 
         <div className="navbar-links">
           <Link to="/" className="nav-link">
